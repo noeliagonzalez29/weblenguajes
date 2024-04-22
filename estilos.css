@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+  
+header{
+  background-image: linear-gradient(rgba(127, 216, 238, 0.897),white);
+}
+h1{
+  font-family: "Skranji", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+body{
+  background-image: url(img/fondoweb.jpg);
+}
+p{
+  font-family: "Skranji", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(53, 58, 63);
+}
+.card{
+  background-color: rgba(238, 232, 170, 0.479);
+}
+.mi_footer{
+  background-color: rgba(128, 0, 128, 0.849);
+  width: 100%;
+  text-align: center;
+}
+.mi_footer p{
+  padding-top: 3%;
+  color: rgba(255, 255, 255, 0.699);
+ 
+}
+.redes{
+  width: 30px; 
+  height: auto; 
+  margin: 0 10px;
+}
