@@ -9,6 +9,12 @@ h1{
   font-weight: 700;
   font-style: normal;
   text-align: center;
+  color: rgb(255, 166, 33);
+}
+hr{
+  border: solid;
+  border-width: 5px;
+  border-style: groove;
 }
 body{
   background-image: url(img/fondoweb.jpg);
@@ -38,3 +44,17 @@ p{
   height: auto; 
   margin: 0 10px;
 }
+.form{
+  font-family: "Skranji", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(53, 58, 63);
+  width: 70%;
+ 
+}
+iframe{
+  width: 80%;
+  padding-top: 10px;
+}
+
