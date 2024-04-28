@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +8,15 @@
     <meta name="keywords" content="catering, cáceres, comida, celebraciones, bodas, Comuniones">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
-    <title>Servicios</title>
+    <title>Comuniones</title>
     <link rel="icon" type="image/x-icon" href="img/cateringpajuelo.png">
 </head>
 <body>
     <div class="container">
         <div class="row">
-          <!--MENU NAVEGACION-->
             <header class="col-12">
                 <h1>Cáceres Pajuelo</h1>
+                <!--MENU NAVEGACION-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
@@ -49,55 +49,50 @@
                     </div>
                   </nav>
             </header>
-        </div>
-      <div class="row">
-        <main class="col-12">
-          <!--CARD CON SERVICIOS-->
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="img/bodas.jpg" class="card-img-top" alt="Bodas">
-                <div class="card-body">
-                  <h5 class="card-title">Bodas</h5>
-                  <p class="card-text">Celebra el día más especial con nosotros.</p>
-                  <a href="bodas.html" class="btn btn-secondary col-12">Bodas</a>
-                </div>
-              </div>
+            <div class="row">
+                <main class="col-12">
+                  <!--TABLA-->
+                    <table class="table ">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">PLatos</th>
+                            <th scope="col">Precios</th>
+                        
+                          </tr>
+                        </thead>
+                        <tbody class="table-hover">
+                          <tr class="table-warning ">
+                            <th scope="row">Menú 1</th>
+                            <td>Crema suave de bogavante con picadillo de langostino, filetes de lenguado al cava con una salsa cremosa y acompañado de champiñón laminado y gamba, solomillo de ibérico con hojaldre crujiente en reducción de vino viejo</td>
+                            <td>Precio por persona: 46,00 €</td>
+                            
+                          </tr>
+                          <tr  class="table-info">
+                            <th scope="row">Menú 2</th>
+                            <td>Tabla de Ibéricos con Queso, Entrantes calientes: Croquetas, chistorra, calamares, Cordero asado al estilo El Cid o Salmón o Lubina.</td>
+                            <td>Precio por persona: 55€</td>
+                            
+                          </tr>
+                          <tr class="table-light">
+                            <th scope="row">Menú 3</th>
+                            <td >Selección de embutidos ibéricos: Jamón, chorizo, lomo y queso en aceite. Tabla de ahumados, Ensalada de ventresca con pimientos asados, Pulpo a la feria, Langostinos dos salsas, Cordero asado al estilo El Cid o Cochinillo o Lubina o Salmon o Emperador</td>
+                            <td>Precio por persona: 65€</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                </main>
             </div>
-              <div class="col">
-                <div class="card">
-                  <img src="img/catering-para-comuniones.jpg" class="card-img-top" alt="Comuniones">
-                  <div class="card-body">
-                    <h5 class="card-title">Comuniones</h5>
-                    <p class="card-text">Comuniones de cuento.Nosotros te ayudamos. </p>
-                    <a href="comuniones.html" class="btn btn-secondary col-12">Comuniones</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="img/para llevar.jpg" class="card-img-top" alt="Para llevar">
-                  <div class="card-body">
-                    <h5 class="card-title">Comida para llevar</h5>
-                   <p class="card-text">Si no tienes tiempo para cocinar, ven a nuestra tienda encontrarás platos saludables cada día</p>
-                    <a href="llevar.html" class="btn btn-secondary col-12">Para llevar</a>
-                  </div>
-               </div>
-              </div>
+            <!--footer-->
+            <div class="row mi_footer">
+                <footer class="col-12 ">
+                    <p>Aviso Legal | Política de privacidad</p>
+                    <hr>
+                    <p>© 2024 Catering</p>
+                    <img src="img/facebook.png" class="redes"> <img src="img/insta.png" class="redes">
+                </footer>
             </div>
-          </div>
-        </main>
-      </div>
-        
-        <!--footer-->
-        <div class="row mi_footer">
-          <footer class="col-12">
-              <p>Aviso Legal | Política de privacidad</p>
-              <hr>
-              <p>© 2024 Catering</p>
-              <img src="img/facebook.png" class="redes"> <img src="img/insta.png" class="redes">
-          </footer>
-        </div>
     </div>
   <script src="bootstrap.min.js"></script>
 </body>

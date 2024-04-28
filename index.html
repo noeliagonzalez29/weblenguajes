@@ -14,6 +14,7 @@
 <body>
     <div class="container">
         <div class="row">
+          <!--MENU-->
             <header class="col-12">
                 <h1>Cáceres Pajuelo</h1>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,8 +33,13 @@
                           <li class="nav-item">
                             <a class="nav-link" href="sobre_nosotros.html">Sobre nosotros</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="servicios.html">Servicios</a>
+                          <li class="nav-item  dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="servicios.html" role="button"  aria-expanded="false" >Servicios</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="bodas.html">Bodas</a></li>
+                              <li><a class="dropdown-item" href="comuniones.html">Comuniones</a></li>
+                              <li><a class="dropdown-item" href="llevar.html">Para llevar</a></li>
+                            </ul>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -45,8 +51,9 @@
             </header>
         </div>
         <div class="row">
-          <aside class="col-12 col-md-12 col-lg-12">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <main class="col-12 ">
+             <!--CARRUSEL-->
+             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -72,8 +79,7 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-          </aside>
-          <main class="col-12 col-md-12 col-lg-12">
+            <!--CARD-->
             <div class="card w-100 mx-auto" style="width: 18rem;">
               <img src="img/bodacard.jpg" class="card-img-top w-75 mx-auto mt-3 rounded" alt="...">
               <div class="card-body  text-center">
@@ -82,10 +88,7 @@
                 <a href="#" class="btn btn-primary">Bodas</a>
               </div>
             </div>
-          </main>
-            
-        </div>
-        <div class="row">
+            <!--TABLA-->
            <div class="col-12">
             <table class="table  text-center table-primary">
               <thead>
@@ -108,10 +111,12 @@
                 </tr>
               </tbody>
             </table>
-          </div>
-        
+          </main>
+        </div>
+       
+      
         <div class="row mi_footer">
-            <footer class="col-12 ">
+            <footer class="col-12">
                 <p>Aviso Legal | Política de privacidad</p>
                 <hr>
                 <p>© 2024 Catering</p>
@@ -119,7 +124,19 @@
             </footer>
         </div>
     </div>
+
+
+  <script>
+      var toastTrigger = document.getElementById('liveToastBtn');
+      var toastLiveExample = document.getElementById('liveToast');
+      var toastLiveElement = new bootstrap.Toast(toastLiveExample);
+
+      if (toastTrigger) {
+          toastTrigger.addEventListener('click', function () {
+              toastLiveElement.show();
+          });
+      }
+  </script>
  <script src="bootstrap.min.js"></script>
- 
 </body>
 </html>

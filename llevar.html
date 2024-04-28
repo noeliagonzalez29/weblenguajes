@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Noelia González">
+    <meta name="description" content="web dedicada a empresa de catering en Cáceres">
+    <meta name="keywords" content="catering, cáceres, comida, celebraciones, bodas, Comuniones">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Comida para llevar</title>
+    <link rel="icon" type="image/x-icon" href="img/cateringpajuelo.png">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-12">
+                <h1>Cáceres Pajuelo</h1>
+                <!--MENU-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="img/cateringpajuelo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="sobre_nosotros.html">Sobre nosotros</a>
+                          </li>
+                          <li class="nav-item  dropdown">
+                            <a class="nav-link dropdown-toggle"id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"href="servicios.html">Servicios</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="bodas.html">Bodas</a></li>
+                              <li><a class="dropdown-item" href="comuniones.html">Comuniones</a></li>
+                              <li><a class="dropdown-item" href="llevar.html">Para llevar</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        </div>
+       
+        <div class="row">
+            <main class="col-12">
+                <div class="card" style="width: 100">
+                    <img src="img/tienda3.jpg" class="card-img-top w-75 mx-auto rounded" alt="comida para llevar">
+                    <div class="card-body">
+                      <p class="card-text">Con nuestra tienda de comida para llevar, ubicada en la calle Monfragüe 3 (Urb. El vivero), podrás olvidarte de cocinar y seguir disfrutando de platos elaborados cada día como en casa. Elige entre una gran variedad de platos caseros y menús diarios para los paladares más exigentes al mejor precio.</p>
+                    </div>
+                </div>
+                <div id="form_llevar">
+                  <h4 class="text-center bg-light">Ponte en contacto con nosotros</h4>
+                  <p>Si necesita encargar comida para más de 8 personas rellena el siguiente formulario y nos pondremos en contacto.</p>
+                  <!--CREACION FORMAULARIO-->
+                  <form class="row g-3 needs-validation text-center" novalidate>
+                      <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="Noelia" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="González" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Correo electrónico</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Pon tu correo electrónico
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                          Ponga de qué ciudad es
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                          <label class="form-check-label" for="invalidCheck">
+                            Acepta los términos y condiciones
+                          </label>
+                          <div class="invalid-feedback">
+                            Debe aceptar antes de enviar
+                          </div>
+                          <button class=" col text-center btn btn-success" type="submit">Enviar</button>
+                      </div>
+                    </form>
+                </div>
+                
+            </main>
+        </div>
+        <div class="row mi_footer">
+            <footer class="col-12 ">
+                <p>Aviso Legal | Política de privacidad</p>
+                <hr>
+                <p>© 2024 Catering</p>
+                <img src="img/facebook.png" class="redes"> <img src="img/insta.png" class="redes">
+            </footer>
+        </div>
+    </div>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
